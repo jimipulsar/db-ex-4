@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom:40px;
+    color: #136ead !important;
+    text-align: center;
+    font-family: Roboto;
+}
+.table {
+    margin-top: 100px;
+    border: 1px solid #e6e6e6;
+    width: 68%;
+    margin: auto;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+
+}
+th {
+    text-align: inherit;
+}
+table {
+    border-collapse: initial;
+}
+.table thead th {
+    border-bottom:1px solid #ece6e6;
+    
+}
