@@ -1,20 +1,15 @@
-<?php
-
-  $idospite = $_GET['idospite'];
-
-  include 'database.php';
-
- ?>
-
 
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ospite <?php echo $idospite; ?></title>
+    <title>ID OSPITE<?php echo $idospite; ?></title>
   </head>
   <body>
-
+    <?php
+    $idospite = $_GET['idospite'];
+    include 'database.php';
+    ?>
     <?php foreach ($ospiti as $ospite) { ?>
       <?php if ($idospite == $ospite['id'] ) { ?>
         <ul>
@@ -25,11 +20,7 @@
           <li>Tipo di documento: <?php echo $ospite['document_type']; ?></li>
           <li>Numero di documento: <?php echo $ospite['document_number']; ?></li>
         </ul>
-
       <?php } ?>
-
-
-      <?php } ?>
-
+    <?php } ?>
   </body>
 </html>
