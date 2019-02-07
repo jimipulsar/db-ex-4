@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js" charset="utf-8"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <title></title>
+        <title>Prenotazioni Hotel</title>
     </head>
     <body>
         <div class="container">
